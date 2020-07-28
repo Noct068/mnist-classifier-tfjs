@@ -1,0 +1,35 @@
+{   
+    "eslintConfig": {
+        "globals": {
+            "Vue": true
+        },
+        "env": {
+            "browser": true,
+            "es6": true,
+            "jquery": true,
+            "node": true
+        },
+        "extends": [
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "sourceType": "module",
+            "exmaVersion" 2018,
+        },
+        "rules": {
+            "no-console": 0,
+            "indent": [
+                "error",
+                4
+            ],
+            "linebresk-style": [
+                "error",
+                "unix"
+            ],
+            "quotes": [
+                "error",
+                "double"
+            ]
+        }
+    }
+}

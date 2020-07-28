@@ -1,0 +1,79 @@
+.jumbotron {
+    text-align: center;
+}
+.jumbotron.jumbotron-fluid {
+    
+    margin-bottom: 0;
+}
+.navbar-brand.home {
+    font-size: 30px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.nav-item.nav-link.github {
+    font-size: 20px;
+}
+.nav-item.nav-link.linkedin {
+    font-size: 20px;
+}
+.section-1 {
+    background-image: url(assets/back.jpg);
+    padding: 2rem;
+    padding-bottom: 3rem
+}
+.resultField {
+    color: white;
+    font-size: 55px;
+}
+#sb.btn.btn-secondary.btn-lg.classify-btn {
+    position: relative;
+    padding: 7px 40px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cb.btn.btn-secondary.btn-lg.clear-btn {
+    position: relative;
+    align-content: center;
+    padding: 7px 50px;
+    margin: 1rem ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tfjs-img {
+    width: 322px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boot-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 31px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-tfjs {
+    background-color: #cccccc;
+    padding: 2rem
+}
+footer {
+    padding: 5px;
+}
+.fa.fa-github.fa-3x {
+    color: white;
+    margin-left: 1rem;
+}
+.fa.fa-linkedin.fa-3x {
+    color: white;
+    margin-left: 1rem;
+}
+
+.linkedin-reference {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    font-size: 20px;
+    color: white;
+}

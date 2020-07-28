@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="tfjs%40latest.js"></script>
+	<script src="tfjs-vis.js"></script>
+        <script lang = "js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0NW5Z2MYC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H0NW5Z2MYC');
+    </script>
+  </head>
+
+
+
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand home" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+              <a class="nav-item nav-link github " href="https://github.com/NikhilR068"> NikhilR068  </a>
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                  <a class="nav-item nav-link linkedin" href="https://www.linkedin.com/in/lakshya-vardhan-singh-rathore-b3a74119a"> Lakshya</a>
+              
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4"><b>Handwritten Classifier</b></h1>
+            <p class="lead"><i><b>Tensorflow.js implementation of MNIST data classifier model.</b></i></p>
+        </div>
+    </div>
+   
+	<div class="section-1">
+        <div class="row" style="touch-action: none;">
+            <div class="col D-flex" width ="280"></div>
+            <div style="touch-action: none;">
+               <canvas id="canvas" width="280" height="280" style="border:8px solid;"></canvas>
+            	<img id="canvasimg" style="width=280;height:280;display:none">
+            </div>
+            <div class="col D-flex"></div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <input class="btn btn-secondary btn-lg classify-btn" type="button" value="classify" id="sb" size="48" >
+            </div>
+            <div>
+                <h1 class="resultField" id="result"></h1>
+            </div>
+            <div class="col text-center">
+                <input class="btn btn-secondary btn-lg clear-btn" type="button" value="clear" id="cb" size="48">
+            </div>
+        </div>
+    </div>
+    <div class="section-tfjs">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 offset-md-1">
+                <img class="img-fluid tfjs-img" src="assets/tf_js.png">
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Tensorflow.js is a library for machine learning in JavaScript. With the help of this library we can develop ML models in JavaScript, and use Machine Learning directly in the browser or in Node.js using flexible and intuitive APIs. You can visit <a class="tfjs-site" href="https://www.tensorflow.org/js">tensorflow.js</a> official website for more information.<br>
+                        <a class="tfjs-git" href="https://github.com/tensorflow/tfjs">TensorFlow.js GitHub Link</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-9">
+                        <p>Build and trained model directly on mnist  directly in JavaScript. Takes less than a minute to train before it is ready to use. You can also use pre-trained tensorflow lite model of mnist classifier to avoid training every time you open the webpage. this webpage is made by using HTML, CSS, Bootstrap, JavaScript(<b>Tensorflow.js</b>).
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 text-center ">
+                        <img class="img-fluid boot-img" src="assets/boot.png">
+                        <img class="img-fluid html-css-js-img" src="assets/html-css-js.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <footer class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3">   
+                </div>
+                <div class="row">
+                    
+                    <a class="git-reference" href="https://github.com/NikhilR068" style="color: white; top: 5px"><i class="fa fa-github fa-3x" aria-hidden="true"></i> NikhilR068, My Github link for more such future --projects.</a>
+                    <a class="linkedin-reference" href="https://www.linkedin.com/in/lakshya-vardhan-singh-rathore-b3a74119a"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> Lakshya</a>
+                </div>
+                <div class="col-sm-12 col-lg-3"> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+	<script src="data.js" type="module"></script>
+	<script src="script-train.js" type="module"></script>
+	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+        
+</body>
+</html>
