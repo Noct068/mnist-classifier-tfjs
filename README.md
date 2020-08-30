@@ -1,4 +1,4 @@
-#Tensorflow.js
+# Tensorflow.js
 
   A tensorflow.js implementation of a handwritten number classifeir trained on MNIST datset.
   An example for deployment of models that you build and trained or by using pre-trained models to a webpage for making a webapp.
@@ -7,7 +7,7 @@
   tensorflow.js - for building , training and deploying tenssorflow models.
   tensorflow-visualization - for visualizing during training with the help of graphs.
 
-#Run
+# Run
 
   You can run the mnistfinal.html file in two ways-
 
