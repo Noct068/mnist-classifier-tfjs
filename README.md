@@ -16,4 +16,4 @@
   2. You can build and train model directly in javascripts each time page is loaded. Training takes less than a minute and it's training is visualized also. For using it just       import script-train.js and data.js at the end of body tag in mnistfinal.html.(REMEMBER TO REMOVE SCRIPT-PRETRAINED.JS WHICH IS IMPORTED BY DEFAULT)
   ![](https://github.com/NikhilR068/mnist-classifier-tfjs/blob/master/assets/training_visualization.png?raw=true)
 
-[Github Page Link](https://nikhilr068.github.io/handwritten-classifier-tfjs/)
+[Github Page Link](https://nikhilr068.github.io/mnist-classifier-tfjs/)
